@@ -43,6 +43,8 @@ This confirms that the card is indeed password protected, and we've successfully
 
 Now, we'll attempt to wipe the card once more, but this time we'll include the password. We can do this by executing the command `lf t5 wipe -p [password]`. Afterward, we'll use the command `lf t5 detect` to ensure that the wiping process was successful.
 
+![Screenshot 2024-05-11 044442](https://github.com/acibojbp/Proxmark3/assets/164168280/519e1354-9cff-4386-948f-83122512077d)
+
 We can also verify this by executing the command `lf search` again. We should expect to see the line **"No known 125/134 kHz tags found!"** to confirm that the card has been successfully wiped.
 
 ![Screenshot 2024-05-11 044455](https://github.com/acibojbp/Proxmark3/assets/164168280/1ab89ea1-e7f2-46e5-a876-da4aa3e8cb59)
